@@ -1,0 +1,10 @@
+#!/bin/bash
+#alternative measures
+pwd
+mkdir new_dir
+touch new_file
+echo "#!/bin/bash">new_file
+echo "this is now amazing">>new_file
+cat new_file
+mv new_file new_dir
+ls
